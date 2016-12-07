@@ -1,0 +1,33 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 7, 2016, 4:54:53 PM
+    Author     : student
+*/
+.logo{
+    height:20px;
+}
+.fix{
+    position:fixed;
+}
+.navbar-default{
+    border: none !important; 
+}
+.top-bar{
+        box-shadow: 0 3px 3px -3px #000;
+        height: 52px !important;
+}
+.top-bar-height{
+    height:52px
+}
+.search-bar{
+        font-family: "PTSans", sans-serif !important;
+    font-size: 13px !important;
+}
+.nav{
+    font-family: "PTSans", sans-serif !important;
+    font-size: 13px !important;
+}
