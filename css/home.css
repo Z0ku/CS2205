@@ -7,8 +7,118 @@ and open the template in the editor.
     Created on : Dec 7, 2016, 4:54:53 PM
     Author     : student
 */
+body{
+    color: #000 ;
+font-family: "PTSans", sans-serif !important;
+}
+h3{
+        color: #000 ;
+    font-family: "PTSans", sans-serif !important;
+    font-weight:100;
+}
+.smallCell > .col-md-12{
+    position:relative;
+    padding-left: 0px !important;
+    padding-right: 0px !important; 
+}
+.smallCell{
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+.smallCell h3{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.smallCell :hover .headliner{
+    display:block;
+}
+.smallCell .headliner{
+    height: 275px;
+    position: absolute;
+    top:0;
+    display: none;
+}
+.info{
+    height:40%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.headliner > .sharebar{
+    bottom: 10px;
+}
+
+
+.img-header{
+    position: relative;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #07b3e7;
+}
+.navbar-default .navbar-nav > li > a:hover div{
+        border-bottom: 3px solid #07b3e7;
+}
+.topMenu div{
+    height: 36px;
+    width: inherit;
+    
+}
+.sharebar > img {
+    height:28px !important;
+    margin-top: 7px;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.footMenu li{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.smallCell .img-header{
+    height: 275px;
+}
+.newsCell .smallCell .headliner{
+       border-top: 3px solid #f05fa3; 
+       padding-right: 15px;
+}
+.largeCell h3{
+    font-weight: bold !important;
+    font-size: 23px !important;
+    line-height: 25px;
+}
+.headliner{
+            color: #000 ;
+font-family: "PTSans", sans-serif !important;
+    font-size:13px;
+    line-height: 19px;
+    background: #fff;
+}
+.img-header .sharebar{
+    display:none;
+}
+.largeCell :hover .sharebar{
+    display: block;
+}
+.smallCell .image{
+    margin-bottom: 5px;
+    height:180px;
+}
+.byline{
+    margin-bottom: 15px;
+    color: #565656;
+}
+.newsCell span{
+   color: #f05fa3 !important; 
+}
 .logo{
     height:20px;
+    vertical-align: top;
+}
+.nav > li > a{
+    padding: 17px 12px !important;
+}
+.nav > li > a:hover{
+    color: skyblue;
 }
 .fix{
     position:fixed;
@@ -19,15 +129,91 @@ and open the template in the editor.
 .top-bar{
         box-shadow: 0 3px 3px -3px #000;
         height: 52px !important;
+        background: #fff;
+        z-index: 100;
+        width: 100%;
+        position: fixed;
+}
+.pad{
+            padding-left: 3%;
+        padding-right: 3%;
+}
+.indexPad{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.top-decoBar{
+    position: fixed;
+    background: linear-gradient(to right, #8c578d 0%,#e862a1 18%,#1da7e5 40%,#4eb08a 61%,#e7a73b 82%,#d3734b 100%);
+    z-index: 101;
+    width: 100%;
+    height: 3px;
 }
 .top-bar-height{
-    height:52px
+    height:52px !important;
 }
 .search-bar{
-        font-family: "PTSans", sans-serif !important;
-    font-size: 13px !important;
+   width: -moz-available;
+   border-radius:0 !important;
+   border-left: 1px solid #b2adaa;
+border-right: 1px solid #b2adaa;
+border-top: 0;
+border-bottom: 0;
+vertical-align: top;
 }
-.nav{
+.sharebar{
+    height:43px;
+    width:100%;
+    position: absolute;
+    bottom: 0;
+    z-index: 98;
+}
+.sharebar img{
+    height:23px;
+    width:auto;
+}
+.col-md-1 > img{
+    height:28px;
+    width:100%;
+    cursor: default;
+}
+.newsCell .image{
+   border-top: 3px solid #f05fa3; 
+}
+.listCell .image{
+    border-top: 3px solid #A8AA2F;
+}
+.smallCell .newsCell .headliner{
+    border-top: 3px solid #f05fa3; 
+}
+.smallCell .listCell .headliner{
+     border-top: 3px solid #A8AA2F;
+}
+.largeCell img{
+    height: 378px;
+}
+.largeCell .sharebar{
+    opacity: 0.8;
+}
+.smallCell > img{ 
+    height: 180px;
+}
+.newsCell .sharebar{
+    background-color: #f05fa3;
+}
+.listCell .sharebar{
+    background-color: #A8AA2F;
+}
+.listCell span{
+    color: #A8AA2F;
+}
+.image{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+nav{
     font-family: "PTSans", sans-serif !important;
     font-size: 13px !important;
+
 }
